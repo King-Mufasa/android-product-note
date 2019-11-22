@@ -14,16 +14,16 @@
         android:orientation="horizontal">
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/edit_block_id"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="9"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:hint="id"
+            android:inputType="textPersonName" />
 
         <com.makeramen.roundedimageview.RoundedImageView
-            android:id="@+id/public_chat_avatar"
+            android:id="@+id/btn_add_block"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:background="@color/colorPrimary"
@@ -38,6 +38,8 @@
     <ListView
         android:id="@+id/list_block"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
 
 </LinearLayout>
